@@ -12,9 +12,13 @@ I wasn't sure which model Pi I had, so I checked out [this page](https://www.ele
 
 Then ...
 
-I downloaded and installed the Raspberry Pi operating system as [described in the Amazon documents](https://github.com/alexa/alexa-avs-raspberry-pi#0---setting-up-the-raspberry-pi). Even though some documentation says a 4GB SD card will work, I found you needed something bigger -- so I had to run down the street and pick up a 32GB card.
+I downloaded and installed the "Raspbian Jessie" Raspberry Pi operating system as [described in the Amazon documents](https://github.com/alexa/alexa-avs-raspberry-pi#0---setting-up-the-raspberry-pi). Even though some documentation says a 4GB SD card will work, I found you needed something bigger -- so I had to run down the street and pick up a 32GB card.
 
-The Pi version doesn't let you address Alexa by saying "Alexa ... ." Instead, you have to push a button. In the Amazon instructions, that button is virtual -- on the screen the Pi is connected to. I wanted to use a physical button, which is described [in a video by Novasprit Tech](https://www.youtube.com/watch?v=frH9HaQTFL8). He has [code to go with it](https://goo.gl/altsmD), too. So I decided to go that way.
+The Pi version doesn't let you address Alexa by saying "Alexa ... ." Instead, you have to push a button. In the Amazon instructions, that button is virtual -- on the screen the Pi is connected to. 
+
+I wanted to use a physical button, which is described [in a video by Novasprit Tech](https://www.youtube.com/watch?v=frH9HaQTFL8). He has [code to go with it](https://goo.gl/altsmD), too. So I decided to go that way.
+
+Then I followd the instructions in the [video](https://www.youtube.com/watch?v=frH9HaQTFL8).
 
 Cloned the repo with: 
 
@@ -22,9 +26,12 @@ Cloned the repo with:
 git clone https://github.com/sammachin/AlexaPi.git
 ```
 
-Followed the instructions in the [video](https://www.youtube.com/watch?v=frH9HaQTFL8).
+
+
 
 ### Notes
+
+- I didn't need to do to `apt-get intall git` ... as it was already loaded.
 
 - You can't do the setup over SSH (unless you VPN into the desktop). So I did it from the terminal on the Pi itself, with a keyboard and monitor plugged in. That's because you actually need to hit the pi with its own browser to get the access key.
 
