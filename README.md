@@ -9,7 +9,7 @@ But [Emily Withrow](https://twitter.com/emilywithrow) mentioned it was possible 
 - **Raspberry Pi** I used an older Version 1-B, but all of the documentation addresses versions 2 and 3. See notes below.
 - **USB Microphone** [This is the one I used](https://www.amazon.com/gp/product/B014MASID4/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B014MASID4&linkCode=as2&tag=reall046-20&linkId=400518241321157a5b4a39b4f4fc65cd) and it worked right off the bat.
 - **A battery-powered speaker** [like this](https://www.amazon.com/gp/product/B00CLDM1F6/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=reall046-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00CLDM1F6&linkId=aad65659fca0ef44f9755709f2b79827).
-- **A wifi dongle**
+- **A wifi dongle** [like this one](https://www.amazon.com/gp/product/B00GFAN498/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=reall046-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B00GFAN498&linkId=6d6a5060c815ff52ff4685a77f7c2a4a)
 
 ## Steps I took
 
@@ -61,7 +61,7 @@ sudo raspi-config
 
 That happens here: https://www.amazon.com/mn/dcw/myx.html
 
-
+And the main site is here: http://alexa.amazon.com/spa/index.html
 
 ## Random Reference for This Project
 
