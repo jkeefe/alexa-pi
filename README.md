@@ -1,5 +1,8 @@
 # Alexa Pi
 
+_Note: These are my raw notes for my project. There's more complete, and clearer, [writeup of this project on my blog](http://johnkeefe.net/alexa-baked-in-a-pi)._
+
+
 I wanted to start experimenting with Amazon's Alexa, but didn't have an [Amazon Echo](http://amzn.to/2ct4yJl) on hand.
 
 But [Emily Withrow](https://twitter.com/emilywithrow) mentioned it was possible to run Alexa on a Raspberry Pi -- and I _do_ have one of those.
