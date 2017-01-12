@@ -27,13 +27,13 @@ git clone https://github.com/sammachin/AlexaPi.git
 ```
 
 
-
-
 ### Notes
 
-- I didn't need to do to `apt-get intall git` ... as it was already loaded.
+- I needed to get a [USB microphone](http://amzn.to/2cZV78n) for my Raspberry Pi.
 
-- You can't do the setup over SSH (unless you VPN into the desktop). So I did it from the terminal on the Pi itself, with a keyboard and monitor plugged in. That's because you actually need to hit the pi with its own browser to get the access key.
+- I didn't need to do to `apt-get install git` ... as it was already loaded.
+
+- You can't do the setup over SSH (unless you VPN into the desktop, I guess). So I did it from the terminal on the Pi itself, with a keyboard and monitor plugged in. That's because you actually need to hit the pi with its own browser to get the access key.
 
 - In addition, you must be logged into your Amazon developer account on that browser *before* running the setup for the script to get your key!
 
